@@ -4,7 +4,7 @@ title:  "Aspriring data scientist ? You are being mislead."
 date:   2015-07-05 11:05:40
 categories: data-science
 ---
-The results of this  post http://www.analyticsvidhya.com/test-data-scientist/ which claims to help you decide whether you are a good fit to become a data scientist or not.
+The results of this <a href="http://www.analyticsvidhya.com/blog/2015/06/test-fit-data-scientist/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AnalyticsVidhya+%28Analytics+Vidhya%29">post</a> which claims to help you decide whether you are a good fit to become a data scientist or not.
 
 There is no problem with the set of questions or the methodology But there has to be a word of caution to takers of this quiz….scoring highly on the quiz has little to do with predicting whether you will actually get a job as a data scientist. The simple reason being the prior probability of getting hired/shifting into a data scientist role is very very less.
 
