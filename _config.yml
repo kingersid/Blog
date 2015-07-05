@@ -1,14 +1,11 @@
 # Site settings
-title: Yet another data science Blog
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Biased
+email: kinger.siddharth@gmail.com
+description: The purpose of this blog is to dispel systematic biases about the science of studying biases and ofcourse machine learing"
 baseurl: "/Blog"
 url: "http://siddharth-kinger.in"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: SidKinger
+github_username:  kingersid
 
 # Build settings
 markdown: kramdown

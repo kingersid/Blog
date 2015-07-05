@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Social media as misleading engines"
+title:  "Aspriring data scientist ? You are being mislead."
 date:   2015-07-05 11:05:40
 categories: data-science
 ---
