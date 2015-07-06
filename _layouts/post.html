@@ -7,10 +7,15 @@ layout: default
   	
 
     <h1 class="post-title">{{ page.title }}</h1>
-    <ul class="metadata">
-    <li><p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %}      • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}        <a href="https://twitter.com/share" class="twitter-share-button" data-via="SidKinger" data-hashtags="DataScience, MachineLearning">Tweet</a></p></li>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %}      • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    Share this on &rarr; 
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+	</div>
+
     
-	</ul>
+	
 
 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 	</script>
@@ -19,5 +24,16 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+  Share this on &rarr; 
+    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+    <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+  <br>
+  <br>
+  <br>
+  <p>Liked this post ? Check these out also....</p>	
+  {% for post in site.related_posts %}
+  <a href="/Blog/{{post.url}}">{{ post.title }}</a><br />
+  {% endfor %}	
 
 </div>

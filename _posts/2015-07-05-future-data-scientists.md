@@ -2,7 +2,6 @@
 layout: post
 title:  "Aspriring data scientist ? You are being misled."
 date:   2015-07-05 11:05:40
-categories: data-science
 author : "Siddharth Kinger"
 ---
 
