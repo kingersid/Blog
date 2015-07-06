@@ -7,6 +7,7 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <lin
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <script>
@@ -28,6 +29,25 @@
     .post-header ul {
       list-style-type: none;
     }
+    @font-face {
+      font-family: 'FontAwesome';
+      src: url('/fonts/fontawesome-webfont.eot'); /* IE9 Compat Modes */
+      src: url('/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/fontawesome-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/fontawesome-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+.fontawesome {
+  font-family: 'FontAwesome';
+}
+.post-header a {
+  font-family: 'FontAwesome';
+  margin-right:5px;
+  color:black;
+  text-decoration: none;
+} 
+
     </style>
 
 </head>
